@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/eco-simple/static/css/main.45050071.chunk.css",
+    "main.js": "/eco-simple/static/js/main.ac5853be.chunk.js",
+    "main.js.map": "/eco-simple/static/js/main.ac5853be.chunk.js.map",
+    "runtime-main.js": "/eco-simple/static/js/runtime-main.75c2b0f7.js",
+    "runtime-main.js.map": "/eco-simple/static/js/runtime-main.75c2b0f7.js.map",
+    "static/js/2.94225dc8.chunk.js": "/eco-simple/static/js/2.94225dc8.chunk.js",
+    "static/js/2.94225dc8.chunk.js.map": "/eco-simple/static/js/2.94225dc8.chunk.js.map",
+    "static/js/3.1a78d809.chunk.js": "/eco-simple/static/js/3.1a78d809.chunk.js",
+    "static/js/3.1a78d809.chunk.js.map": "/eco-simple/static/js/3.1a78d809.chunk.js.map",
+    "index.html": "/eco-simple/index.html",
+    "static/css/main.45050071.chunk.css.map": "/eco-simple/static/css/main.45050071.chunk.css.map",
+    "static/js/2.94225dc8.chunk.js.LICENSE.txt": "/eco-simple/static/js/2.94225dc8.chunk.js.LICENSE.txt",
+    "static/media/logo.0dd9a510.png": "/eco-simple/static/media/logo.0dd9a510.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.75c2b0f7.js",
+    "static/js/2.94225dc8.chunk.js",
+    "static/css/main.45050071.chunk.css",
+    "static/js/main.ac5853be.chunk.js"
+  ]
+}

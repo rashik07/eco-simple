@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Cart = (props) => {
     const total=props.cart.reduce((total, prd) => total+prd.price,0);
@@ -10,6 +11,9 @@ const Cart = (props) => {
     else if(total < 35){
         shipping=4.99;
     }
+    else if(total == 0){
+        shipping=0;
+    }
     return (
         <div>
             <h4>Order Summary</h4>
@@ -17,6 +21,11 @@ const Cart = (props) => {
             
             <p><small>Shipping Cost: {shipping}</small></p>
             <p>Total Price: {total+ shipping}</p>
+            <br></br>
+            <Link to="/Review">
+                <button className="main-button"> Review Order</button>
+            </Link>
+            
         </div>
     );
 };

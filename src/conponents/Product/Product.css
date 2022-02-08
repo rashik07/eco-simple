@@ -7,7 +7,16 @@
 }
 .product-name{
     color:blue;
+ 
     font-weight: 400;
+}
+.product-name a:hover{
+    color:black;
+ 
+    font-weight: 400;
+}
+.product-name a{
+ text-decoration:none;
 }
 .product-contain{
     margin-left: 20px;
@@ -16,7 +25,7 @@
     background-color:goldenrod;
     width:150px;
     height:30px;
-    border: 1px solid black;
+    border: 1px solid gray;
     border-radius: 5px;
     cursor: pointer;
 }

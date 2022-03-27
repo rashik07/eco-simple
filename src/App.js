@@ -3,7 +3,7 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
+  Link,
 } from "react-router-dom";
 
 import './App.css';
@@ -20,7 +20,8 @@ function App() {
     <div >
       <Header></Header>
       <Router>
-        <Switch>
+        <Switch> 
+          
           
           <Route path="/shop">
             <Shop></Shop>
